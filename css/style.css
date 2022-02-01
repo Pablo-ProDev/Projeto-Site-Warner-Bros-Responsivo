@@ -1,0 +1,401 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "dança";
+}
+
+html,body{
+	height: 100%;
+	background-color: black;
+}
+
+@font-face{
+	src:url('../fonts/DancingScript-VariableFont_wght.ttf');
+	font-family: "dança";
+}
+
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.center h1{
+	color:white;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.header{
+	width: 100%;
+	padding:0 2%;
+	height: 60px;
+	background-color: black;
+}
+
+.header img{
+	margin: 15px;
+}
+
+.container-banner{
+	width: 100%;
+	padding:0 2%;
+	height: 557px;
+	background-image:url('/imagens/warnervideo.gif');
+	background-size: cover;
+	background-position: center;
+}
+
+.container-banner > .center{
+	height: 100%;
+}
+
+.form{
+	padding:10px;
+	width: 400px;
+	height: calc(100% + 30px);
+	float: right;
+	position: relative;
+	top:-15px;
+	border-width: 12px;
+	border: 8px solid rgba(120, 120, 120, 0.3);
+	border-style: solid;
+	background-color: white;
+	background-clip:padding-box;
+	/*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+
+.form h2{
+	font-weight: normal;
+    color:black;
+    font-size:26px;
+    font-weight: bold;
+}
+
+.input-container{
+	margin-top:20px;
+}
+
+.input-container span{
+	display: inline-block;
+    width: 100%;
+    color:black;
+    font-size: 27px;
+}
+
+.form p{
+	margin:20px 0;
+    display: inline-block;
+    width: 100%;
+    color:black;
+    font-size: 22px;
+}
+
+.input-container input[type=text]{
+	margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    font-size: 35px;
+}
+
+.form .input-submit-container{
+	text-align: center;
+}
+
+.form input[type=submit]{
+	color: white;
+	font-size: 25px;
+	width: 280px;
+	height: 56px;
+	display: inline-block;
+	background-color: black;
+	border: 5px solid #ccc;
+	cursor: pointer;
+	
+}
+
+.form input[type=submit]:hover{
+	zoom:103%;
+}
+
+.form input[value=Enviar]{
+    
+    font-size: 40px;
+}
+
+.form input[value=Enviar]:hover{
+    color:red;
+}
+
+
+
+
+.container-2{
+	padding:40px 2%;
+	background-color: black;
+	text-align: center;
+	
+}
+
+
+
+
+.container-2 h2{
+	font-weight: normal;
+	color:white;
+	font-size: 35px;
+    font-family: rockwell;
+}
+
+.container-2 p{
+	width: 100%;
+	max-width: 768px;
+	margin:15px 0;
+	display: inline-block;
+	text-align: justify;
+	color:white;
+	font-size: 21px;
+}
+
+.arrow{
+	position: relative;
+	top:60px;
+	left:50%;
+	margin-left: -20px;
+	width: 60px;
+	height: 60px;
+	background-image: url('../imagens/arrow.gif');
+	background-size: 100% 100%;
+}
+
+.section-1{
+	padding:90px 2%;
+}
+
+.section-1 h2{
+	text-align: center;
+	color: white;
+	font-weight: 'dança';
+	font-size: 60px;
+	cursor: pointer;
+}
+
+.section-1 h2:hover{
+	color:red;
+	zoom:106%;
+}
+.container-section{
+	margin-top:40px;
+	text-align: center;
+}
+
+
+
+.container-single{
+	float: left;
+	width: 33.3333%;
+	padding:30px;	
+}
+
+.patao{
+	max-width: 1030px;
+	max-height: 1030px;
+    width: 100%x;
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid red;
+    cursor: pointer;
+    
+}
+
+.patao:hover{
+    zoom:106%;
+    border:6px solid blue;
+    border-radius: 50%;
+}
+
+.cachorro{
+	max-width: 1030px;
+	max-height: 1030px;
+    width: 100%x;
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid red;
+    cursor: pointer;
+    
+}
+
+.cachorro:hover{
+    zoom:106%;
+    border:6px solid blue;
+    border-radius: 50%;
+}
+
+.coringuinha{
+	max-width: 1030px;
+	max-height: 1030px;
+    width: 100%x;
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    border: 6px solid red;
+    cursor: pointer;
+    
+}
+
+.coringuinha:hover{
+    zoom:106%;
+    border:6px solid blue;
+    border-radius: 50%;
+}
+
+
+.container-single p{
+	display: inline-block;
+	text-align: justify;
+	padding:10px;
+	color: white;
+    font-size: 20px;
+    font-family: rockwell;	
+}
+
+.container-single h2{
+	text-align: center;
+    color:white;
+    font-size: 30px;
+	color: blue;
+    
+}
+
+.container-single img{
+	width:70px;
+}
+
+.footer{
+    /*clear:both;*/
+    border-top: 4px solid white;
+    padding: 60px 0;
+    text-align: center;
+    margin: 5px 0;
+    
+}
+
+.footer p{
+    font-family: rockwell;
+    font-size: 25px;
+    padding: 4px 0;
+    margin: 5px 0;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a{
+    font-size: 25px;
+    font-family: rockwell;
+    padding: 4px 0;
+    margin: 5px 0;
+    color:white;
+    text-decoration: none;
+}
+
+.footer p:hover{
+    zoom:103%;
+    color:blue;
+}
+
+.footer a:hover{
+    font-family: rockwell;
+    zoom:103%;
+    color:blue;
+}
+
+
+
+@media screen and (max-width: 1024px){
+	.header{
+		height: auto;
+		width: 100%;
+		padding:15px 0;
+		text-align: center;
+	}
+
+	.header img{
+		margin:0;
+	}
+
+	.container-list{
+		padding:30px 0;
+		width: 40%;
+		float: none;
+		display: inline-block;
+		max-width: 500px;
+		height: auto;
+	}
+
+	.container-banner{
+		width: 100%;
+		padding:40px 2%;
+		height: auto;
+		text-align: center;
+		
+	}
+
+	.form{
+		max-width: 400px;
+		padding:10px;
+		width: 60%;
+		height: 100%;
+		float:right;
+		top:0;
+	}
+
+	.input-container input[type=text]{
+		width: 100%;
+		height: 55px;
+	}
+
+
+	.form input[type=submit]{
+		max-width: 280px;
+		height: 56px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container-2{
+		padding-right: 4%;
+		padding-left: 4%;
+	}
+	.container-list{
+		margin-top: 0;
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.form{
+		float: none;
+		display: inline-block;
+		width: 90%;
+		margin-top:30px;
+	}
+
+	.container-single{
+		float: none;
+		display: inline-block;
+		width: 100%;
+		max-width: 600px;
+		padding:30px 0;
+	}
+}
